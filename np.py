@@ -10,8 +10,7 @@ class NP:
             'TrackingDocument',
             'getStatusDocuments',
             self.tracking_resources(document_number, phone))
-        response = self.send_request(NP_TRACING_URL, data).json()
-        print(response)
+        return self.send_request(NP_TRACING_URL, data).json()
 
     def tracking_resources(self, document_number, phone):
         return {
