@@ -6,6 +6,10 @@ file with your token to API NP and Telegram
 
 ###Commands
 
+for autofix style code: 
+
+```autopep8 --in-place --aggressive --aggressive <filename>```
+
 for install all requirements:
  
  ```pip install --upgrade -r requirements.txt``` 
